@@ -19,14 +19,16 @@ char_span.on("mouseover", function(){
 });
 
 if ($(window).width() > 768 ) {
-    var cursor = $("#cursor");
-
+    var cursor = $(".cursor_dot");
+    var koef = 20;
+    
     $(window).mousemove(function(e) {
 
         cursor.css({
             top: e.clientY - cursor.height() / 2,
             left: e.clientX - cursor.width() / 2
-        })
+        });
+
     });
 
     $(window)
@@ -41,3 +43,4 @@ if ($(window).width() > 768 ) {
             });
     });
 }
+

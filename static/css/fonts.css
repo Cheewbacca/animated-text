@@ -1,0 +1,558 @@
+.font-h1 {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/* @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-h1{
+        font-size: calc(5vw * 1.5); 
+    }
+} */
+
+@media only screen and (width: 1024px){
+    .font-h1{
+        font-size: calc(5vw * 1.5); 
+    }
+}
+/* 
+@media screen and (min-width: 1440px){
+    .font-h1 {
+        font-size: 6.66666vw;
+    }
+} */
+
+@media screen and (max-width: 768px){
+    .font-h1{
+        font-size: 8.3442vw;
+        letter-spacing: 9px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-h1{
+        font-size: 36px;
+        letter-spacing: 10px;
+    }
+}
+
+.font-h2 {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    font-size: 5vw;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.font-h3 {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.333333vw;
+    line-height: 1 ;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-h3{
+        font-size: calc(4.4444vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-h3{
+        font-size: calc(4.4444vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-h3{
+        font-size: 48px;
+    }   
+}
+
+@media screen and (max-width: 768px){
+    .font-h3{
+        font-size: 6.258149vw;
+    }   
+}
+
+@media screen and (max-width: 499px){
+    .font-h3{
+        font-size: 48px;
+    }   
+}
+
+.font-h4 {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.875vw;
+    line-height: 1.17;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 8.88888vh;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-h4{
+        font-size: calc(1.875vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-h4{
+        font-size: calc(1.875vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-h4{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-h4{
+        font-size: 4.69361vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-h4{
+        font-size: 36px;
+    }
+}
+
+.font-h4-initial-padding{
+    padding: initial;
+}
+
+.table-fonts{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25vw;
+    line-height: 28px;
+    letter-spacing: 0.888889px;
+    color: #000000;
+}
+
+@media screen and (min-width: 1440px){
+    .table-fonts{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768){
+    .table-fonts{
+        font-size: 2.34375vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .font-h4-in-cards{
+        font-size: 18px;
+    }
+    .table-fonts{
+        font-size: 18px;
+    }
+}
+
+.font-subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.33;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-subtitle{
+        font-size: calc(1.25vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-subtitle{
+        font-size: calc(1.25vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-subtitle{
+        font-size: 1.66666vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-subtitle{
+        font-size: 2.60756vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-subtitle{
+        font-size: 20px;
+    }
+}
+
+.font-subtitle-left{
+    text-align: left;
+}
+
+.font-body-1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0416666vw;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    padding: 12px 0;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-body-1{
+        font-size: calc(1.0416666vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-body-1{
+        font-size: calc(1.0416666vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-body-1{
+        font-size: 1.3888vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-body-1{
+        font-size: 2.60756vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-body-1{
+        font-size: 20px;
+    }
+}
+
+.font-body-2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.0416666vw;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: center;
+    max-width: 50.208vw;
+    margin: 0 auto;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-body-2{
+        font-size: calc(1.0416666vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-body-2{
+        font-size: calc(1.0416666vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-body-2{
+        font-size: 1.3888vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-body-2{
+        font-size: 1.8229166vw;
+        max-width: initial;
+        margin: 0 15.77575vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-body-2{
+        font-size: 20px;
+        margin: initial;
+    }
+}
+.font-body-2-top{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    .font-body-2-top{
+        margin: initial;
+    }
+}
+@media screen and (max-width: 500px){
+    .font-body-2-top{
+        font-size: 14px;
+    }
+}
+
+.font-body-2-left{
+    text-align: left;
+}
+
+.font-body-3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.7291666vw;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    .font-body-3{
+        font-size: calc(0.7291666vw * 1.5); 
+    }
+}
+
+@media only screen and (width: 1024px){
+    .font-body-3{
+        font-size: calc(0.7291666vw * 1.5); 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .font-body-3{
+        font-size: 0.9722vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-body-3{
+        font-size: 1.82529vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-body-3{
+        font-size: 14px;
+    }
+}
+
+.min-line-height-font-body-1{
+    line-height: 1;
+}
+
+.clutch_fonts{
+    font-family: 'BebasNeue';
+    font-size: 1.666666666vw;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #000000;
+}
+
+@media screen and (min-width: 1440px){
+    .clutch_fonts{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .clutch_fonts{
+        font-size: 3.125vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .clutch_fonts{
+        font-size: 24px;
+    }
+}
+
+.font-lato-20{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.388888vw;
+    line-height: 36px;
+    letter-spacing: 0.277778px;
+    color: #000000;
+}
+
+@media screen and (min-width: 1440px){
+    .font-lato-20{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-lato-20{
+        font-size: 2.604166vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-lato-20{
+        font-size: 20px;
+    }
+}
+
+.font-bebas-36{
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 36px;
+    letter-spacing: 2.23333px;
+    color: #000000;
+}
+
+.font-bebas-64{
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.4444444vw;
+    line-height: 64px;
+    letter-spacing: 2.23333px;
+    color: #000000;
+}
+
+.font-bebas-96{
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.666666666vw;
+    line-height: 42px;
+    letter-spacing: 0.5;    
+    color: #000000;
+}
+
+@media screen and (min-width: 1440px){
+    .font-bebas-36{
+        font-size: 36px;
+    }
+    .font-bebas-64{
+        font-size: 64px;
+    }
+    .font-bebas-96{
+        font-size: 96px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .font-bebas-36{
+        font-size: 4.6875vw;
+    }
+    .font-bebas-64{
+        font-size: 8.33333333vw;
+    }
+    .font-bebas-96{
+        font-size: 12.5vw;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .font-bebas-36{
+        font-size: 24px;
+    }
+    .font-bebas-64{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 34px;
+    }
+    .font-bebas-96{
+        font-size: 96px
+    }
+}
+
+body .bborder {
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    -webkit-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+    font-family: BebasNeue;
+}
+
+body .bborder::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    background: #000;
+    height: 2px;
+    width: 45%;
+    -webkit-transition: width .3s ease-out;
+    -o-transition: width .3s ease-out;
+    transition: width .3s ease-out
+}
+
+body .bborder:hover {
+    color: #9595ef
+}
+
+body .bborder:hover:after {
+    width: 100%;
+    background-color: #9595ef
+}
+
+.content_padding{
+    padding: 0 9.72222vw !important;
+}
